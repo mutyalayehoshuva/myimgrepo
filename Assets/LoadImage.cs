@@ -5,7 +5,8 @@ using UnityEngine.UI;
 public class LoadImage : MonoBehaviour
 {
     public RawImage img;
-    private string url = "https://www.imgacademy.com/themes/custom/imgacademy/images/helpbox-contact.jpg";
+    //private string url = "https://www.imgacademy.com/themes/custom/imgacademy/images/helpbox-contact.jpg";
+    private string url ="https://www.timeoutdubai.com/public/styles/full_img/public/images/2020/07/13/IMG-Dubai-UAE.jpg?itok=ibIYRxwX"
     // Start is called before the first frame update
     void Start()
     {
