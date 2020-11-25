@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 469c24fdb3bd6431b92cc1465bd9166b, type: 3}
+  m_Name: RemoteConfigDataStoreAsset
+  m_EditorClassIdentifier: 
+  rsKeyList:
+  - metadata:
+      entityId: c3ffa34f-3838-4f3f-8aee-b1e3540f073c
+    rs:
+      key: cubeisBlue
+      type: bool
+      value: false
+  - metadata:
+      entityId: 26c270db-284b-4b21-b109-96fa5105fd66
+    rs:
+      key: ChangeColor
+      type: bool
+      value: false
+  - metadata:
+      entityId: 5a8cad04-7d88-434a-b575-16a3698709dd
+    rs:
+      key: isTreethere
+      type: bool
+      value: True
+  rsLastCachedKeyList:
+  - metadata:
+      entityId: c3ffa34f-3838-4f3f-8aee-b1e3540f073c
+    rs:
+      key: cubeisBlue
+      type: bool
+      value: false
+  - metadata:
+      entityId: 26c270db-284b-4b21-b109-96fa5105fd66
+    rs:
+      key: ChangeColor
+      type: bool
+      value: false
+  - metadata:
+      entityId: 5a8cad04-7d88-434a-b575-16a3698709dd
+    rs:
+      key: isTreethere
+      type: bool
+      value: True
+  configId: 2d104d0b-64fb-4b3a-a374-c7202a952cbd
+  currentEnvironmentId: e3f6767a-5b0b-4e1e-87ad-75183f76f20f
+  environments:
+  - id: 2cb50a55-fb4d-406c-a60a-ea54b04d2692
+    appId: 
+    name: Production
+    description: 
+    createdAt: 2020-11-25T03:23:20Z
+    updatedAt: 2020-11-25T03:29:21Z
+  - id: 24aea383-61c7-44b1-83f8-3c4603e0a762
+    appId: 
+    name: Release
+    description: 
+    createdAt: 2020-11-25T03:24:46Z
+    updatedAt: 2020-11-25T03:24:46Z
+  - id: e3f6767a-5b0b-4e1e-87ad-75183f76f20f
+    appId: 
+    name: Development (Default)
+    description: 
+    createdAt: 2020-11-25T03:24:46Z
+    updatedAt: 2020-11-25T03:29:21Z
+  rulesList:
+  - id: 1241a7d7-922e-4eda-8ec2-cc58553eefb8
+    name: newEnvirontment
+    enabled: 1
+    priority: 1000
+    type: 
+    condition: 
+    rolloutPercentage: 100
+    value: []
+    startDate: 
+    endDate: 
+  lastCachedRulesList:
+  - id: 1241a7d7-922e-4eda-8ec2-cc58553eefb8
+    name: newEnvirontment
+    enabled: 1
+    priority: 1000
+    type: 
+    condition: 
+    rolloutPercentage: 100
+    value: []
+    startDate: 
+    endDate: 
+  addedRulesIDs: []
+  updatedRulesIDs: []
+  deletedRulesIDs: []
